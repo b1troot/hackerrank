@@ -1,9 +1,7 @@
 package main
 
-import (
-	"../toarray"
-	"fmt"
-)
+import "fmt"
+
 
 // CreateRanking removes double values from original scores array
 func createRanking(arr []int32) []int32 {
@@ -51,13 +49,4 @@ func climbingLeaderboard(scores []int32, alice []int32) []int32 {
 
 	}
 	return positions
-}
-
-func main() {
-
-	s8 := toarray.GetInput("testcase8scores.txt")
-	a8 := toarray.GetInput("testcase8alice.txt")
-	result := climbingLeaderboard(s8, a8)
-	fmt.Println(result)
-
 }
