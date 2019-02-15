@@ -1,2 +1,2 @@
 # hackerrank
-Repository for Hackerrank working solutions
+## Repository for solved Hackerrank challenges.
