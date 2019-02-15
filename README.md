@@ -1,3 +1,9 @@
 # hackerrank
 ## Repository for solved Hackerrank challenges.
-This project is a part of my learning resume. I will upload my working solutions from [HackerRank](https://www.hackerrank.com)
+This repository is a part of my learning path. I will upload here my solutions from [HackerRank](https://www.hackerrank.com).
+Every alogorithm presented on this repo should pass all test cases.  
+### Categories :
+* Algorithms :
+  * Easy
+  * Medium
+  * Hard
