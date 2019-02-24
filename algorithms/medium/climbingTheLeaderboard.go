@@ -1,7 +1,4 @@
-package main
-
-import "fmt"
-
+package medium
 
 // CreateRanking removes double values from original scores array
 func createRanking(arr []int32) []int32 {
@@ -19,7 +16,7 @@ func createRanking(arr []int32) []int32 {
 
 func climbingLeaderboard(scores []int32, alice []int32) []int32 {
 
-  // scores slice without double values
+	// scores slice without double values
 	ranking := createRanking(scores)
 
 	positions := []int32{}

@@ -1,4 +1,4 @@
-package main
+package easy
 
 func saveThePrisoner(n int32, m int32, s int32) int32 {
 	poisoned := (s + m - 1) % n
