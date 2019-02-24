@@ -1,8 +1,7 @@
 package easy
 
-import (
-	"math"
-)
+import "math"
+
 
 func viralAdvertising(n int32) int32 {
 	var shared int32 = 5
